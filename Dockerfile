@@ -5,10 +5,8 @@ WORKDIR /srv/image-resizer-instance
 
 RUN npm install -g tripviss/image-resizer#v1.4.3 \
 	&& image-resizer new \
-	&& npm install \
+	&& npm install --production \
 	&& npm cache clean
-
-ENV NODE_ENV production
 
 EXPOSE 3001
 
