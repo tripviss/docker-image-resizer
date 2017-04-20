@@ -1,10 +1,12 @@
 *.DS_Store
+*.md
 *.sublime-project
 *.sublime-workspace
 ._*
 .dockerignore
 .editorconfig
 .git/
+.gitattributes
 .gitignore
 .gitmodules
 Dockerfile
